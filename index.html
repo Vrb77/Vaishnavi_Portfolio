@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaishnavi's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" href="./assets/Logo_7.png" type="image/png" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><img src="./assets/logo2.png" ></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#Technology">Technology</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"><img src="./assets/logo2.png" ></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#Technology">Technology</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/pro1.jpeg" alt="Vaishnavi Badade profile picture" style="border-radius: 50%;border: 3px solid black;"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Vaishnavi Badade</h1>
+        <p class="section__text__p2">Aspiring Data scientist</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="location.href='https://drive.google.com/file/d/18bxnq4tyh6yj-TSJU5t68rXHl1jof6mT/view?usp=sharing'">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/vaishnavi-badade-2b2a1b240/'" />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Vrb77'" />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <!-- <div class="section__pic-container">
+          <img
+            src="./assets/about-pic3.jpeg"
+            alt="Profile picture"
+            class="about-pic" />
+        </div> -->
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon" />
+              <h3>Experience</h3>
+              <p>1 years <br />Software Engineer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon" />
+              <h3>Education</h3>
+              <p>bachelor's degree in Computer Science</p>
+              <p>Master's degree in Computer Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+             <b>Welcome to my portfolio! I’m Vaishnavi Badade, a passionate Software Engineer and aspiring Data Scientist.</b>
+              <br/>
+              <br/>
+             I have a strong interest in Data Science, Artificial Intelligence, and Machine Learning.
+I enjoy working with data to discover insights and build intelligent solutions.
+I have experience developing web applications using Python, Flask, Django, HTML, CSS, and JavaScript.
+              <br/>
+              <br/>
+            I like solving real-world problems through technology and analytical thinking.
+I continuously work on improving my technical and problem-solving skills.
+I am eager to work on innovative projects and gain experience in the data science field.
+My goal is to grow as a professional and contribute to impactful technology solutions. 🚀
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'" /> -->
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title"> Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">
+              Software Engineer
+            </h2> 
+            <h4>Quantum Innotek</h4>
+            <h5 style="margin-top: 7px;">December 2023 - November 2024</h5>
+            <div class="article-container ">
+              <hr style="width:75%;text-align:center;margin-top:10px;">
+              <li>Developed a full-stack web application
+using Flask, Python, HTML, CSS,
+JavaScript, and AJAX, featuring
+secure vendor-customer authentication
+with role-based access</li>
+              <li>Created and integrated RESTful APIs
+for smooth frontend–backend
+communication and built a real-time
+multimedia chat system with
+WhatsApp-like features</li>
+              <li>Implemented order tracking, payment
+gateway integration, and a user
+matching system to connect vendors
+and customers efficiently.</li>
+              <li>Utilized Python dictionaries for rapid
+prototyping and followed SDLC
+principles to ensure scalability,
+maintainability, and high performance</li>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Intern</h2>
+            <h4>Future Ready Talent</h4>
+            <h5 style="margin-top: 7px;">May 2022 - July 2022</h5>
+           
+            <div class="article-container">
+              <hr style="width:75%;text-align:center;margin-top:10px;">
+              <li>Developed and deployed an interactive chatbot
+using Microsoft Azure Bot Services, integrating QnA
+Maker APIs for automated and accurate responses.</li>
+<li>
+  Leveraged Microsoft Azure Static Web App Services for seamless deployment and hosting
+of the chatbot, ensuring high performance and quick response times
+</li>
+              <li>Designed user-friendly conversational flows,
+deployed the solution via Azure Static Web App
+Services, and performed testing to ensure
+functionality and reliability</li>
+             </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'" /> -->
+    </section>
+    
+    <section id="Technology">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Tech Knowledge</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Languages & Databases</h2>
+            <div class="article-container">
+              <!-- <article>
+                <img
+                  src="./assets/cpp.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>C/C++</h3>
+                </div>
+              </article> -->
+             
+              <article>
+                <img
+                  src="./assets/python.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/javascript.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/html.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>HTML/CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/sql.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>SQL</h3>
+                </div>
+              </article>
+             
+              <article>
+                <img
+                  src="./assets/mysql.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>MySQL</h3>
+                </div>
+              </article>
+             
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frameworks/Libraries</h2>
+            <div class="article-container">
+             
+              <article>
+                <img
+                  src="./assets/flask.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>Flask</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/pandas.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>Pandas</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/numpy.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>NumPy</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Matplotlib.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>Matplotlib</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tensor.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>TensorFlow</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/scikit-learn.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>scikit-learn</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Familiar with</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/azure.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>Microsoft Azure</h3>
+                </div>
+              </article>
+             
+              <article>
+                <img
+                  src="./assets/git.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>Git</h3>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/powerbi.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>Power BI</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/api.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>Rest API</h3>
+                </div>
+              </article>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'" /> -->
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Machine_failure_real.png"
+                alt="Project 1"
+                class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Machine Failure Prediction</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Vrb77/Deployment_ML_projects'">
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://machine-failure-prediction77.streamlit.app/'">
+                Live Demo
+              </button>
+            </div>
+            <div class="article-container ">
+              <br/>
+              <li style="list-style-type: square;">
+               Predicts whether a machine will fail based on operational data like temperature, speed, and tool wear.
+              </li>
+              <li style="list-style-type: square;">
+               A trained ML model and a simple interface where users can enter machine parameters and instantly get a failure prediction.
+              </li>
+
+            </div>  
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/QIConnect_project.png"
+                alt="Project 2"
+                class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">QiConnect </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Vrb77/FlaskQIConnectApp'">
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://qiconnecthub.onrender.com/'">
+                Live Demo
+              </button>
+            </div>
+            <div class="article-container ">
+              <br/>
+              <li style="list-style-type: square;">
+               QiConnect is a web platform that connects customers with vendors.
+              </li>
+              <li style="list-style-type: square;">
+               It allows users to find services, communicate with vendors, and manage service requests efficiently.
+              </li>
+
+            </div>  
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Travel_chatbot_project.png"
+                alt="Project 3"
+                class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Travel Chatbot</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Vrb77/Travel_Chatbot'">
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://youtu.be/0krz3LnVtyE'">
+                YouTube Video
+              </button>
+            </div>
+           <div class="article-container ">
+              <br/>
+              <li style="list-style-type: square;">
+                A Chatbot related to travel in my project which is innovative & attractive way to search for question asked by the peoples & get their answer.
+              </li> 
+              <li style="list-style-type:square">
+                QnA maker, Azure bot service(web app bot) & Static Web App services of Microsoft Azure is used.
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'" /> -->
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon" />
+          <p><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=vaishnavibadade45@gmail.com" target="_blank">Gmail</a>
+</p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon" />
+          <p><a href="https://www.linkedin.com/in/vaishnavi-badade-2b2a1b240/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#Technology">Technology</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Made by Vaishnavi Badade with 	&#9829;</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html> 
